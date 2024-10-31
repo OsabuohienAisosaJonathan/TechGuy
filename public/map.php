@@ -20,7 +20,7 @@ require '../includes/auth.php'; // Ensure user is logged in
             width: 100%;
         }
     </style>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-asGVnEt71cv4sg8lxXhcdcotqicdgjI&callback=initMap" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key={YOUR_GOOGLE_API}&callback=initMap" async defer></script>
     <script src="../assets/js/map.js"></script>
 </head>
 <body>
